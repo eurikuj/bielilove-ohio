@@ -1,0 +1,340 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+hr {
+  box-sizing: content-box; 
+  height: 0; 
+  overflow: visible; 
+}
+
+pre {
+  font-family: monospace, monospace; 
+  font-size: 1em; 
+}
+
+a {
+  background-color: transparent;
+}
+
+abbr[title] {
+  border-bottom: none; 
+  text-decoration: underline; 
+  text-decoration: underline dotted; 
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; 
+  font-size: 1em; 
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; 
+  font-size: 100%; 
+  line-height: 1.15; 
+  margin: 0; 
+}
+
+button,
+input { 
+  overflow: visible;
+}
+
+button,
+select { 
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box; 
+  color: inherit; 
+  display: table; 
+  max-width: 100%; 
+  padding: 0; 
+  white-space: normal; 
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield; 
+  outline-offset: -2px; 
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; 
+  font: inherit; 
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+} 
+ 
+.collapsible, .collapsibleBig {
+  background-color: #313131;
+  color: rgba(33,33,33,1);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  float: left;
+  outline: none;
+  font-size: 15px;
+}
+
+
+.collapsible h3:after {
+  content: '\002B';
+  color: rgba(33,33,33,1);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active h3:after {
+  content: "\2212";
+}
+
+.collapsibleBig h1:after {
+  content: '\002B';
+  color: rgba(33,33,33,1);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active h1:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #4c4c4c;
+}
+
+div a, div a:visited {
+    color: inherit;
+} 
+
+div {
+    font-family: Bitter;
+    font-size: 14pt;
+    line-height: 1.25;
+    font-weight: 100;
+    color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h6 {
+    color: #ffffff;
+}
+
+h5 {
+    color: #ffffff;
+}
+
+h4 {
+    color: #ffffff;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 10px;
+  background-color: #3c3c3c;
+}
+
+/* Responsive columns - centered column layout (vertical) on big screens */
+@media screen and (min-width: 1024px) {
+  .column {
+    width: 1024px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width:630px){
+  .Ax20{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:460px){
+  .Ax20{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:440px){
+  .Ax20{
+    font-size: 12px;
+  }
+}
+
+/*video stuff*/
+.thumb{
+  max-width: 30%;
+  min-width: 30%;
+  background-size: cover;
+}
+
+.title{
+  margin-left: 3%;
+}
+
+.LevelCard{
+  display:flex;
+}
+
+.flex:not(.no-stretch) > *:not(.no-stretch) {
+    flex-grow: 1;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+    flex-flow: row nowrap;
+}
